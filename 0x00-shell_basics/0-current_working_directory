@@ -1,0 +1,6 @@
+#!/bin/bash
+path = 'readlink -f "${BASH_SOURCE: -$0}"'
+DR_PATH='dirname  $path'
+echo 'Find the absolute path:' $path
+echo '-------------------------------'
+echo 'The path of the direectory is :' $DR_PATH
